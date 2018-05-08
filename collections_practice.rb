@@ -40,7 +40,7 @@ def add_s(array)
   array.each_with_index.collect do |element, index |
   element << "s"
   end
-  array[1].pop
+  array[1].pop("s")
   array
 end
     
