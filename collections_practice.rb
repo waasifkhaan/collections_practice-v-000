@@ -15,3 +15,6 @@ def swap_elements(array)
 end
 # def swap_elements_from_to(array,index,destination_index)
 #   array.collect_with_index do |num, index |
+def reverse_array(array)
+  array.reverse 
+end
