@@ -33,4 +33,7 @@ def find_a(array)
   end
   alpha
 end
+def sum_array(array)
+  array.each do |sum|
+    
     
