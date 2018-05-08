@@ -23,3 +23,6 @@ def kesha_maker(array)
   array.each do |str|
     str[2] = "$"
     kesha << str
+  end
+  kesha
+end
