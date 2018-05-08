@@ -26,3 +26,11 @@ def kesha_maker(array)
   end
   kesha
 end
+def find_a(array)
+  alpha = []
+  array.each do |str|
+    alpha << str if str.start_with?("a")
+  end
+  alpha
+end
+    
