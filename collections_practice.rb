@@ -37,10 +37,12 @@ def sum_array(array)
   array.inject {|sum, n| sum + n }
 end
 def add_s(array)
-  array.each_with_index.collect do |element, index |
+  add = []
+  array.each do |element|
   element << "s"
+  add << element
   end
-  array[1].pop("s")
-  array
+  add[1] = array[1]
+  add
 end
     
