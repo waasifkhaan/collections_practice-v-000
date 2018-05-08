@@ -34,6 +34,7 @@ def find_a(array)
   alpha
 end
 def sum_array(array)
-  array.each do |sum|
+  array.inject {|sum, n| sum + n }
+end
     
     
