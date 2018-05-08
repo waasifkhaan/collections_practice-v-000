@@ -38,8 +38,14 @@ def sum_array(array)
 end
 def add_s(array)
   array.each_with_index.collect do |element, index|
+  if index == 0 
     element << "s"
-  element = element if index == 1
+  elsif index == 1 
+  element = element 
+else
+  element << "s"
+end
+  
   end
 end
     
