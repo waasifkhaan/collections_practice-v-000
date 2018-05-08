@@ -39,11 +39,10 @@ end
 def add_s(array)
   add = []
   array.each_with_index do |element, index|
-  if index == "1"
+  element = elemnt if index == "1"
   element << "s"
   add << element
   end
-  add[1] = array[1]
   add
 end
     
